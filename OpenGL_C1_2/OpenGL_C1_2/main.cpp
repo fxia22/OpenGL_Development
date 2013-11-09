@@ -17,8 +17,11 @@ void myDisplay()
     glShadeModel(GL_FLAT);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
+  //  glTranslatef(0.5, 0.5, 0);
+
     glRotatef(angle, 0.0, 0.0, 1.0);
-    
+    glTranslatef(-0.5, -0.5, 0);
+
     glBegin(GL_QUADS);
     glColor3f(1.0, 0, 0);
     glVertex3f(0.0,0.0,0.0);

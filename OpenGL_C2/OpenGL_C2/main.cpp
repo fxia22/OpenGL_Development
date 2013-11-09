@@ -14,12 +14,14 @@ void myDisplay()
 {
     if (paint) glShadeModel(GL_SMOOTH);
          else glShadeModel(GL_FLAT);
-    glShadeModel(GL_SMOOTH);
+   // glShadeModel(GL_SMOOTH);
     glEnable(GL_DEPTH_TEST);
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
-    glScalef(0.2, 0.2, 0.2);
-    glTranslatef(1, 2, 3);
+    //glScalef(0.2, 0.2, 0.2);
+    glTranslatef(1,2,3);
+    glTranslatef(0, 0, -10.0f);
+    
     glRotatef(angle, 1, 0, 0.0);
    
     glBegin(GL_QUADS);
@@ -111,9 +113,6 @@ void myDisplay()
     glVertex3f(-0.5f,  0.5f, -0.5f);
     glEnd();
 
-    
-    
-    
     glutSwapBuffers();
     angle-=0.05;
     // std::cout<<paint;
@@ -129,7 +128,18 @@ void initFunc()
 {
     glClearColor(0.5f, 0.0f, 0.0f, 0.0f);
 }
-
+void reshape( int width, int height )
+{
+    height = height?height:1;
+    glViewport( 0, 0, (GLint)width, (GLint)height );
+    
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluPerspective(45.0f,(GLfloat)width/(GLfloat)height,0.1f,100.0f);
+    
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+}
 
 int main(int argc, char ** argv)
 {
@@ -147,6 +157,7 @@ int main(int argc, char ** argv)
     glutKeyboardFunc(&processNormalKeys);
     glutDisplayFunc(&myDisplay);
     glutIdleFunc(&myDisplay);
+    glutReshapeFunc(&reshape);
     //  initFunc();
     glutMainLoop();
     

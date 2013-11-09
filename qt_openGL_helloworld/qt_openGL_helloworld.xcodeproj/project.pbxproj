@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CEE7C039E99E7AF8FE1F9D /* xfWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0EA880C23EBF33840A11246D /* xfWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */; };
+		2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7D7B02101166B76FD2D4F8B4 /* CoreText.framework */; };
+		2D367B399AA57F7319FEA1FA /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 682A50D19E416195436708E4 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		3535B8A403852D5C3514FCB9 /* Qt5PlatformSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 95B368DA32B919C68873AABD /* Qt5PlatformSupport */; };
+		64597D71ED75BEF85CF8794D /* Qt5Core in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5BC13780C9ABC96F89370F05 /* Qt5Core */; };
+		65F223FB730A9B3602E44031 /* Qt5Gui in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 365947C9B07A860048FF6E9F /* Qt5Gui */; };
+		7CF3F28E7FACDFC7F2C3EA66 /* Qt5OpenGL in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F2DDE4323CECDFF639586A7C /* Qt5OpenGL */; };
+		B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */; };
+		B4B8CB7D3B321FC70F58BB50 /* moc_xfWidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E7A425F9A48A309C5A2EB4CF /* moc_xfWidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		B66FA6BD1BE92C2557CEF5EC /* Qt5Widgets in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 83F07E42F2E25CF18FF8AC3E /* Qt5Widgets */; };
+		C447D507182DCF6D00D72ACE /* GLKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C447D505182DCF6D00D72ACE /* GLKit.framework */; };
+		C447D508182DCF6D00D72ACE /* OpenGLES.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C447D506182DCF6D00D72ACE /* OpenGLES.framework */; };
+		F21D9C6CC51BF793ED806F81 /* qios in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A0458D7DC74CE5DDB6E902B5 /* qios */; };
+		F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FCC237CA5AD60B9BA4447615 /* Foundation.framework */; };
+		F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EA880C23EBF33840A11246D /* xfWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xfWidget.cpp; sourceTree = "<absolute>"; };
+		365947C9B07A860048FF6E9F /* Qt5Gui */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Gui; path = "/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3B29EC5B0566D464FBDCD294 /* xfWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xfWidget.h; sourceTree = "<absolute>"; };
+		4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		5BC13780C9ABC96F89370F05 /* Qt5Core */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Core; path = "/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		5F5FE3EC5168EC04B1FF599A /* qt_openGL_helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qt_openGL_helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		682A50D19E416195436708E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<absolute>"; };
+		6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		74AF1F10008B9C6B80753A09 /* qt_openGL_helloworld.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = qt_openGL_helloworld.pro; sourceTree = "<absolute>"; };
+		7D7B02101166B76FD2D4F8B4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = /System/Library/Frameworks/CoreText.framework; sourceTree = "<absolute>"; };
+		7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		83F07E42F2E25CF18FF8AC3E /* Qt5Widgets */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Widgets; path = "/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		95B368DA32B919C68873AABD /* Qt5PlatformSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5PlatformSupport; path = "/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib/libQt5PlatformSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		A0458D7DC74CE5DDB6E902B5 /* qios */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qios; path = "/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		AB3CA1FCAF58E8575D29AFD8 /* ui_xfWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_xfWidget.h; sourceTree = "<absolute>"; };
+		C447D505182DCF6D00D72ACE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C447D506182DCF6D00D72ACE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E7A425F9A48A309C5A2EB4CF /* moc_xfWidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_xfWidget.cpp; sourceTree = "<absolute>"; };
+		F1F9E718AA5E7AD4D049E4DE /* xfWidget.ui */ = {isa = PBXFileReference; lastKnownFileType = file; path = xfWidget.ui; sourceTree = "<absolute>"; };
+		F2DDE4323CECDFF639586A7C /* Qt5OpenGL */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5OpenGL; path = "/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib/libQt5OpenGL$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		FCC237CA5AD60B9BA4447615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C447D507182DCF6D00D72ACE /* GLKit.framework in Link Binary With Libraries */,
+				C447D508182DCF6D00D72ACE /* OpenGLES.framework in Link Binary With Libraries */,
+				F21D9C6CC51BF793ED806F81 /* qios in Link Binary With Libraries */,
+				F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */,
+				B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */,
+				F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */,
+				2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */,
+				0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */,
+				3535B8A403852D5C3514FCB9 /* Qt5PlatformSupport in Link Binary With Libraries */,
+				7CF3F28E7FACDFC7F2C3EA66 /* Qt5OpenGL in Link Binary With Libraries */,
+				B66FA6BD1BE92C2557CEF5EC /* Qt5Widgets in Link Binary With Libraries */,
+				65F223FB730A9B3602E44031 /* Qt5Gui in Link Binary With Libraries */,
+				64597D71ED75BEF85CF8794D /* Qt5Core in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9E718AA5E7AD4D049E4DE /* xfWidget.ui */,
+			);
+			name = "Sources [uic]";
+			sourceTree = "<Group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E7A425F9A48A309C5A2EB4CF /* moc_xfWidget.cpp */,
+				AB3CA1FCAF58E8575D29AFD8 /* ui_xfWidget.h */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				682A50D19E416195436708E4 /* main.cpp */,
+				0EA880C23EBF33840A11246D /* xfWidget.cpp */,
+				3B29EC5B0566D464FBDCD294 /* xfWidget.h */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AF1F10008B9C6B80753A09 /* qt_openGL_helloworld.pro */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0458D7DC74CE5DDB6E902B5 /* qios */,
+				FCC237CA5AD60B9BA4447615 /* Foundation.framework */,
+				7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */,
+				4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */,
+				7D7B02101166B76FD2D4F8B4 /* CoreText.framework */,
+				6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */,
+				95B368DA32B919C68873AABD /* Qt5PlatformSupport */,
+				F2DDE4323CECDFF639586A7C /* Qt5OpenGL */,
+				83F07E42F2E25CF18FF8AC3E /* Qt5Widgets */,
+				365947C9B07A860048FF6E9F /* Qt5Gui */,
+				5BC13780C9ABC96F89370F05 /* Qt5Core */,
+			);
+			name = Frameworks;
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* qt_openGL_helloworld */ = {
+			isa = PBXGroup;
+			children = (
+				C447D505182DCF6D00D72ACE /* GLKit.framework */,
+				C447D506182DCF6D00D72ACE /* OpenGLES.framework */,
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = qt_openGL_helloworld;
+			sourceTree = "<Group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FE3EC5168EC04B1FF599A /* qt_openGL_helloworld.app */,
+			);
+			name = Products;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11F02BDEEFB68D58340EC67 /* qt_openGL_helloworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "qt_openGL_helloworld" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				3DA90DAE39A0C9D07C6F6B0F /* Qt Prelink */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qt_openGL_helloworld;
+			productName = qt_openGL_helloworld;
+			productReference = 5F5FE3EC5168EC04B1FF599A /* qt_openGL_helloworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "qt_openGL_helloworld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* qt_openGL_helloworld */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11F02BDEEFB68D58340EC67 /* qt_openGL_helloworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DA90DAE39A0C9D07C6F6B0F /* Qt Prelink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/$(CURRENT_ARCH)/*.o",
+			);
+			name = "Qt Prelink";
+			outputPaths = (
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_$(CURRENT_ARCH))",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "for f in $(find . -name '*.o'); do (nm $f | grep -q 'T _main' && cp $f $f.original && ld -r -alias _main _qt_main -unexported_symbol _main $f.original -o $f) || true ; done";
+		};
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C '/Volumes/Macintosh HD/dev/OpenGL/OpenGL_Development/qt_openGL_helloworld' -f qt_openGL_helloworld.xcodeproj/qt_makeqmake.mak";
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C '/Volumes/Macintosh HD/dev/OpenGL/OpenGL_Development/qt_openGL_helloworld' -f qt_openGL_helloworld.xcodeproj/qt_preprocess.mak";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D367B399AA57F7319FEA1FA /* main.cpp in Compile Sources */,
+				07CEE7C039E99E7AF8FE1F9D /* xfWidget.cpp in Compile Sources */,
+				B4B8CB7D3B321FC70F58BB50 /* moc_xfWidget.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/mkspecs/macx-ios-clang/ios",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtOpenGL",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtWidgets",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtGui",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtCore",
+					.,
+					.,
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/plugins/platforms",
+					/System/Library/Frameworks/,
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib",
+				);
+				OBJROOT = ./;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-u",
+					_qt_registerPlatformPlugin,
+					"-L/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-L/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib",
+					"-framework",
+					OpenGLES,
+					"-lz",
+					"-lm",
+				);
+				PRODUCT_NAME = qt_openGL_helloworld;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "/Volumes/Macintosh HD/dev/OpenGL/OpenGL_Development/qt_openGL_helloworld";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/mkspecs/macx-ios-clang/ios",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtOpenGL",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtWidgets",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtGui",
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/include/QtCore",
+					.,
+					.,
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/plugins/platforms",
+					/System/Library/Frameworks/,
+					"/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib",
+				);
+				OBJROOT = ./;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-u",
+					_qt_registerPlatformPlugin,
+					"-L/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-L/Users/xiafei/qt_ios_dev/ios_dev/qtbase-ios-iphone/lib",
+					"-framework",
+					OpenGLES,
+					"-lz",
+					"-lm",
+				);
+				PRODUCT_NAME = qt_openGL_helloworld;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "/Volumes/Macintosh HD/dev/OpenGL/OpenGL_Development/qt_openGL_helloworld";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = qt_openGL_helloworld;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = qt_openGL_helloworld;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "qt_openGL_helloworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "qt_openGL_helloworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
